@@ -1,0 +1,201 @@
+.intro {
+  background: url(/resources/images/backgrounds/background-intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-inner p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*#######################
+## INTRO SWIPER IMAGES###
+#########################*/
+.intro-swiper-images {
+  float: right;
+  width: 98%;
+  transform: translateY(-25%);
+  overflow: clip;
+  overflow-clip-margin: 40px;
+}
+
+@media (min-width: 1024px) {
+  .intro-swiper-images {
+    width: 45%;
+    transform: translateY(-50%);
+  }
+}
+
+.intro-swiper-images .location-image {
+  position: relative;
+  width: 325px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.intro-swiper-images .swiper-slide-active {
+  border: 2px solid #fff;
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 1));
+}
+
+.location-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*#######################
+### INTRO SWIPER TEXT####
+#########################*/
+
+.intro-swiper-text {
+  margin-top: 200px;
+  max-width: 1160px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .intro-swiper-text {
+    margin-bottom: 110px;
+  }
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+}
+
+@media (min-width: 768px) {
+  .location-text {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0;
+  }
+}
+
+.location-left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .location-left {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 145px;
+  }
+}
+
+.location-title {
+  max-width: 350px;
+  font-size: 35px;
+  color: #1b1b1b;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .location-title {
+    text-align: right;
+  }
+}
+
+.location-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .location-controls {
+    margin-bottom: 0;
+  }
+}
+
+.intro-next,
+.intro-prev {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  background-color: #fff;
+  font-size: 30px;
+  color: #000;
+  border: 1px solid #000000;
+  z-index: 1000;
+  top: unset !important;
+  left: unset !important;
+  bottom: unset !important;
+  right: unset !important;
+}
+
+.intro-prev {
+  margin-right: 30px;
+}
+
+.intro-next:after,
+.intro-prev:after {
+  content: "";
+}
+
+.location-right {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .location-right {
+    width: 50%;
+  }
+}
+
+.location-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #888888;
+  font-weight: 300;
+  margin-bottom: 25px;
+  font-family: "Roboto";
+}
+
+.location-link {
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}

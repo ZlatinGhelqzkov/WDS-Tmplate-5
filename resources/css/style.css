@@ -1,0 +1,62 @@
+/*#########RESET#########
+#########################
+#########################*/
+
+@import url(/resources/css/reset.css);
+
+/*######COMPONENTS#######
+#########################
+#########################*/
+
+@import url(/resources/css/components/wrapper.css);
+@import url(/resources/css/components/button.css);
+
+/*###### SECTIONS #######
+#########################
+#########################*/
+@import url(/resources/css/sections/header.css);
+@import url(/resources/css/sections/intro.css);
+@import url(/resources/css/sections/news.css);
+@import url(/resources/css/sections/footer.css);
+@import url(/resources/css/sections/destinations.css);
+@import url(/resources/css/sections/events.css);
+@import url(/resources/css/sections/places.css);
+@import url(/resources/css/sections/stories.css);
+@import url(/resources/css/sections/services.css);
+@import url(/resources/css/sections/operators.css);
+
+main {
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 100px 0px;
+  }
+}
+
+h1 {
+  font-size: 65px;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
+h2 {
+  font-size: 35px;
+  color: #1b1b1b;
+  font-weight: 700;
+  font-weight: 700;
+  text-transform: capitalize;
+}

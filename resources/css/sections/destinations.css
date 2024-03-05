@@ -1,0 +1,120 @@
+.destinations-inner {
+  position: relative;
+  text-align: center;
+}
+
+.destinations-inner h2 {
+  margin-bottom: 40px;
+}
+
+.search {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 15px;
+  background: rgba(0 0 0 / 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media(min-width: 1024px){
+  .search{
+    position: absolute;
+    flex-direction: row;
+  }
+}
+
+@media(min-width: 1200px){
+  .search{
+    padding: 26px 0px 26px 30px;
+  }
+}
+
+.search h3 {
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 15px;
+}
+
+@media(min-width: 1024px){
+  .search h3{
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+}
+
+.country-wrapper,
+.offers {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+@media(min-width: 1024px){
+  .country-wrapper,
+  .offers{
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+.country-wrapper select,
+.offers select {
+  display: block;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 265px;
+  height: 38px;
+  border-radius: 19px;
+  padding: 5px 15px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #ffb625;
+  box-sizing: border-box;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+
+.country-wrapper select option,
+.offers select option {
+  background-color: rgba(0 0 0 / 0.7);
+}
+
+.arrow-down {
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  padding: 0px 3px;
+  right: 15px;
+  top: 50%;
+  background: orange;
+  color: #fff;
+  transform: translate(0%, -50%);
+  pointer-events: none;
+}
+
+.arrow-down i {
+  display: block;
+}
+
+.search button {
+  display: block;
+  border: none;
+  padding: 13px 40px;
+  line-height: 1;
+  cursor: pointer;
+}
