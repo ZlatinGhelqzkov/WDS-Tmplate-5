@@ -2,28 +2,28 @@
 #########################
 #########################*/
 
-@import url(/resources/css/reset.css);
+@import url(./reset.css);
 
 /*######COMPONENTS#######
 #########################
 #########################*/
 
-@import url(/resources/css/components/wrapper.css);
-@import url(/resources/css/components/button.css);
+@import url(./components/wrapper.css);
+@import url(./components/button.css);
 
 /*###### SECTIONS #######
 #########################
 #########################*/
-@import url(/resources/css/sections/header.css);
-@import url(/resources/css/sections/intro.css);
-@import url(/resources/css/sections/news.css);
-@import url(/resources/css/sections/footer.css);
-@import url(/resources/css/sections/destinations.css);
-@import url(/resources/css/sections/events.css);
-@import url(/resources/css/sections/places.css);
-@import url(/resources/css/sections/stories.css);
-@import url(/resources/css/sections/services.css);
-@import url(/resources/css/sections/operators.css);
+@import url(./sections/header.css);
+@import url(./sections/intro.css);
+@import url(./sections/news.css);
+@import url(./sections/footer.css);
+@import url(./sections/destinations.css);
+@import url(./sections/events.css);
+@import url(./sections/places.css);
+@import url(./sections/stories.css);
+@import url(./sections/services.css);
+@import url(./sections/operators.css);
 
 main {
   font-family: "Montserrat", sans-serif;
